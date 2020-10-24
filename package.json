@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-nature-remo-cloud",
+  "name": "homebridge-nature-remo-lexrj",
   "version": "0.0.1",
   "description": "A static platform plugin for Nature Remo accessories using the Cloud API",
   "main": "dist/nature-remo-platform.js",
