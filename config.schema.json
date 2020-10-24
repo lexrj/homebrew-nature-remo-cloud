@@ -1,0 +1,12 @@
+{
+  "pluginAlias": "config",
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "accessToken": {
+      "title": "Access Token",
+      "type": "string",
+      "required": true
+    }
+  }
+}
