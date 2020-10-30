@@ -7,6 +7,7 @@
     "clean": "rimraf ./dist",
     "build": "rimraf ./dist && tsc",
     "prepare": "npm run build",
+    "postinstall": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexis Johnson <regentoforigin@gmail.com>",
