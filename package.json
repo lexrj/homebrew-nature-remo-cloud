@@ -30,11 +30,13 @@
   "bugs": {
     "url": "http://github.com/homebridge/homebridge-examples/issues"
   },
+  "dependencies": {
+    "got": "^11.8.0"
+  },
   "devDependencies": {
     "@types/node": "10.17.19",
     "typescript": "^3.8.3",
     "rimraf": "^3.0.2",
-    "homebridge": "^1.0.4",
-    "got": "^11.8.0"
+    "homebridge": "^1.0.4"
   }
 }
