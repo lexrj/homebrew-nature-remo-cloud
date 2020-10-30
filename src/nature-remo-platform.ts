@@ -46,7 +46,8 @@ class NatureRemoPlatform implements StaticPlatformPlugin {
             this.homebridgeClient,
             this.log,
             this.natureRemoClient,
-            device.id
+            device.id,
+            device.name
           )
         );
       });
@@ -60,6 +61,8 @@ class NatureRemoPlatform implements StaticPlatformPlugin {
             this.homebridgeClient,
             this.log,
             this.natureRemoClient,
+            appliance.device.id,
+            appliance.nickname,
             appliance.id
           )
         );
